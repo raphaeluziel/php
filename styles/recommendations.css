@@ -1,0 +1,66 @@
+body {
+  background-color: #eeeeff;
+  max-width: 760px;
+  margin: 40px auto;
+}
+h1, h4{
+  text-align:center;
+}
+.dueDate{
+  color: green;
+  font-weight: bold;
+  font-size: 125%;
+  text-align: center;
+}
+.error{
+  color: red;
+}
+.file{
+  color: blue;
+}
+.nav{
+  background-color: #fde;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.nav a{
+  color: grey;
+  text-decoration: none;
+  display: block;
+}
+.nav a:hover{
+  background: lightblue;
+}
+.questions{
+  font-style: italic;
+}
+.answers{
+  background-color: white;
+  padding: 10px;
+}
+.rest{
+  padding: 10px;
+}
+#questions{
+  background-color: white;
+  padding: 20px;
+  margin: 12px 4px 0px 4px;
+}
+.signup_buttons{
+  margin: 0px 2px 4px 2px;
+}
+.warning{
+  color: red;
+}
+@media (max-width: 600px) {
+  body{
+    margin: 10px auto;
+  }
+  textarea{
+    width: 100%;
+  }
+}
